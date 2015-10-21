@@ -3,14 +3,14 @@ package edu.qu.helpers;
 import java.util.ArrayList;
 import java.util.Random;
 
-import gpl.pierrick.brihaye.aramorph.AraMorph;
-import gpl.pierrick.brihaye.aramorph.lucene.ArabicGlossAnalyzer;
+//import gpl.pierrick.brihaye.aramorph.AraMorph;
+//import gpl.pierrick.brihaye.aramorph.lucene.ArabicGlossAnalyzer;
 import edu.qu.entities.Comment;
 import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 
 public class POSTagger {
 
-	public static final String arabicTaggerPath = "libraries\\models\\arabic-train.tagger";
+	public static final String arabicTaggerPath = "libraries//models//arabic-train.tagger";
 
 	
 	public static ArrayList<Comment> tagPOS(ArrayList<Comment> array)

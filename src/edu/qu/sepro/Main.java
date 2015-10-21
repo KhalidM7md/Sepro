@@ -11,7 +11,7 @@ import edu.qu.helpers.POSTagger;
 
 public class Main {
 
-	private final static String path = "C:\\Users\\Khalid\\Google Drive\\Qatar University\\Thesis\\8. Data\\1. Arabic\\1. AJA (ISIS)\\CrowdFlower V2.0\\AJA_5000_Annotated_310815.xls";
+	private final static String path = "data//AJA_5000_Annotated_310815.xls";
 	private final static String adjectiveTag = "JJ";
 	
 	public static void main(String[] args) {
